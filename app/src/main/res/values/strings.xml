@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Catch The Bird</string>
+    <string name="tap_to_start">Tap To Start</string>
+    <string name="score_123">Score: 0</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="high_score_999">High Score: 999</string>
+    <string name="try_again">Try Again</string>
+    <string name="_10_point">+ 10 Point</string>
+    <string name="_30_point">+ 30 Point</string>
+    <string name="game_over_">Game Over</string>
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+    <string name="_20_point">+ 20 Point</string>
+    <string name="_50_point">- 50 Point</string>
+    <string name="tap_and_hold_to_move_up_the_box">Tap and hold to move up the box!</string>
+</resources>

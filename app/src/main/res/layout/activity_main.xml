@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/score_123"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:textColor="@color/colorAccent2"
+        android:gravity="center_vertical"
+        tools:ignore="RtlSymmetry"
+        android:background="@color/colorPrimaryDark"
+        />
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tapStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_start"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tapTap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_and_hold_to_move_up_the_box"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/box"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="-5dp"
+            android:src="@drawable/box"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/bird"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bird"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/bomb"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/bomb"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/coin"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/coin"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/pinkBird"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pinkbird"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/bomb2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/mine"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+</LinearLayout>
